@@ -14,7 +14,7 @@ html{
 
 body{
 
-    font-family:'Montserrat',sans-serif;
+    font-family: Verdana, Arial;
     background:#f8f8f8;
     color:#222;
     line-height:1.6;
@@ -66,7 +66,7 @@ header{
 .logo h1{
 
     color:white;
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
     font-size:48px;
     letter-spacing:4px;
 
@@ -177,7 +177,7 @@ HERO
 
 .hero-content h1{
 
-    font-family:'Cormorant Garamond',serif;
+    font-family: Verdana, Arial;
 
     font-size:90px;
 
@@ -233,7 +233,7 @@ WELCOME
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    /* grid-template-columns:1fr 1fr; */
 
     gap:70px;
 
@@ -251,7 +251,7 @@ WELCOME
 
     font-size:48px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family: Verdana, Arial;
 
     margin-bottom:30px;
 
@@ -326,7 +326,7 @@ FEATURES
 
     font-size:28px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
 }
 
@@ -372,7 +372,7 @@ LUXURY
 
     margin-bottom:25px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
 }
 
@@ -429,7 +429,7 @@ LUXURY
 .gallery h2{
     text-align:center;
     font-size:56px;
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
     margin-bottom:60px;
     color:#0f5f6d;
 }
@@ -469,14 +469,19 @@ LUXURY
 
 .flex {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px red solid;
 }
 .flex img {
-    width: 250%;
+    width: 50%;
 }
 .flex .right{
-
+    padding-left: 200px;
 }
-
+.flex .left{
+    padding: 20px;
+}
 /* ===========================
 SPECIAL OFFERS
 =========================== */
@@ -499,7 +504,7 @@ SPECIAL OFFERS
 
     margin-bottom:60px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
 }
 
@@ -531,7 +536,7 @@ SPECIAL OFFERS
 
     margin-bottom:20px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
 }
 
@@ -588,7 +593,7 @@ TESTIMONIALS
 
     margin-bottom:70px;
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
 }
 
@@ -673,7 +678,7 @@ footer{
 
 footer h3{
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:Verdana, Arial;
 
     font-size:32px;
 
