@@ -231,10 +231,6 @@ WELCOME
 
     width:100%;
 
-    max-width:90%;
-
-    margin:120px auto;
-
     display:grid;
 
     grid-template-columns:1fr 1fr;
@@ -246,6 +242,8 @@ WELCOME
     background:#0f5f6d;
 
     color: white;
+
+    padding:120px 0;
 
 }
 
@@ -263,16 +261,19 @@ WELCOME
 
     font-size:18px;
 
-    color:#555;
+    color:lab(94.02% -23.75 1.02);
 
 }
 
 .welcome img{
 
-    border-radius:8px;
+    
 
-    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    /* box-shadow:0 15px 40px rgba(0,0,0,.15); */
 
+    /* padding: 10px; */
+
+    border-radius:10px;
 }
 
 /* ===========================
@@ -466,6 +467,15 @@ LUXURY
 
 }
 
+.flex {
+    display: flex;
+}
+.flex img {
+    width: 250%;
+}
+.flex .right{
+
+}
 
 /* ===========================
 SPECIAL OFFERS
