@@ -14,7 +14,7 @@ html{
 
 body{
 
-    font-family: Verdana, Arial;
+    font-family: Ta
     background:#f8f8f8;
     color:#222;
     line-height:1.6;
@@ -239,7 +239,7 @@ WELCOME
 
     align-items:center;
 
-    background:#0f5f6d;
+    background:#218289;
 
     color: white;
 
@@ -471,7 +471,7 @@ LUXURY
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 .flex img {
     width: 50%;
@@ -488,7 +488,7 @@ SPECIAL OFFERS
 
 .offers{
 
-    background:#0f5f6d;
+    background:#218289;
 
     color:white;
 
@@ -568,7 +568,7 @@ SPECIAL OFFERS
 
 .offer-card button:hover{
 
-    background:#0f5f6d;
+    background:#218289;
 
 }
 
@@ -649,7 +649,7 @@ TESTIMONIALS
 
 .review span{
 
-    color:#0f5f6d;
+    color:#218289;
 
     font-weight:600;
 
