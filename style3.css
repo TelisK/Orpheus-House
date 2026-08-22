@@ -3,7 +3,12 @@
 
 * {
     /* box-sizing: border-box; */
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+body {
+    border: #218289 solid 5px;
 }
 .header {
     background-image: url("assets/header.jpg");
@@ -13,8 +18,7 @@
 
 }
 .header div {
-    border: 3px red solid;
-    
+        
 }
 .header-text {
     display: grid;
@@ -59,6 +63,42 @@
 }
 .header-text button:hover {
     color: #218289;
+}
+main .flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #218289;
+    
+}
+main .flex img {
+    width: 40%;
+    
+}
+main .flex .flex-left {
+    background-color: #218289;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    color: #218289;
+    gap: 40px;
+    align-items: center;
+    font-size: larger;
+    
+
+}
+.desc-left {
+    flex: 1;
+    padding-left: 20px;
+}
+.desc-right {
+    flex: 1;
+    padding-right: 20px;
 }
 
 
