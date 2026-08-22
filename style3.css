@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    /* box-sizing: border-box; */
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    background-image: url("assets/header.jpg");
+    background-size: cover;
+    /* height: 700px; */
+    /* background-color: #cccccc; */
+
+}
+.header div {
+    border: 3px red solid;
+    
+}
+.header-text {
+    display: grid;
+    grid-template-rows: 25% 25% 50%;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    "firstline firstline"
+    "central central"
+    "house book";
+}
+    .header-text p:nth-child(1) {
+    border: black solid 2px;
+    height: auto;
+    grid-area: firstline;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: solid 2px white;
+    margin: 0;
+    font-size: 1em;
+}
+.header-text p:nth-child(2) {
+    grid-area: central;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.header-text h1 {
+    grid-area: house;
+    color: white;
+    font-weight: 100;
+    
+
+}
+.header-text button {
+    grid-area: book;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.header-text button:hover {
+    color: #218289;
+}
+
+
+@media screen and (min-width: 768px){
+.header-text p:nth-child(1) {
+    border: black solid 2px;
+    height: auto;
+    grid-area: firstline;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: solid 2px white;
+    margin: 0;
+    font-size: 2em;
+}
+.header-text p:nth-child(2) {
+    grid-area: central;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+}
+}
