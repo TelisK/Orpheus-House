@@ -38,13 +38,13 @@ body {
     text-align: center;
     border-bottom: solid 2px white;
     margin: 0;
-    font-size: 1em;
+    font-size: 1rem;
 }
 .header-text p:nth-child(2) {
     grid-area: central;
     color: whitesmoke;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 
@@ -82,7 +82,7 @@ main .flex img {
 }
 main .flex .flex-left {
     background-color: #218289;
-    font-size: 30px;
+    font-size: 2rem;
     padding-left: 30px;
     padding-top: 20px;
     color: whitesmoke;
@@ -101,10 +101,14 @@ main .flex .flex-left {
 .desc-left {
     flex: 1;
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .desc-right {
     flex: 1;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .appartment {
     display: flex;
@@ -119,6 +123,10 @@ main .flex .flex-left {
 
 
 @media screen and (min-width: 1000px){
+    * {
+        /* font-size: 125%; */
+        max-width: 1400px;
+    }
     .header {
     background-image: url("assets/header.jpg");
     background-size: cover;
