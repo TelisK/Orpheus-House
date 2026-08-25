@@ -5,7 +5,7 @@
     /* box-sizing: border-box; */
     /* font-family: "Roboto", sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 body {
@@ -31,7 +31,6 @@ body {
     "house book";
 }
     .header-text p:nth-child(1) {
-    border: black solid 2px;
     height: auto;
     grid-area: firstline;
     color: whitesmoke;
@@ -49,14 +48,18 @@ body {
 
 
 .header-text h1 {
+    border: black solid 2px;
     grid-area: house;
     color: white;
+    font-variant: small-caps;
     font-weight: 100;
-    
+    text-align:start;
     /* margin-right: auto; */
-
+    width: 500px;
+    justify-self: start;
+}
+.header-h1 {
     
-
 }
 .header-text button {
     grid-area: book;
@@ -110,19 +113,24 @@ main .flex .flex-left {
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.appartment {
+.apartment {
     display: flex;
     flex-direction: column;
 }
-.appartment-header {
+.apartment-header {
     display: flex;
+    background-color: #218289;
+    color: aliceblue;
 }
-.appartment img {
+.apartment button {
+    background-color: #218289;
+}
+.apartment img {
     width: 50%;
 }
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 769px){
     * {
         /* font-size: 125%; */
         max-width: 1400px;
