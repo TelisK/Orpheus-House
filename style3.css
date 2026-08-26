@@ -125,6 +125,7 @@ main .flex .flex-left {
     "galery image";
     background-color: #218289;
     color: aliceblue;
+    gap: 50px;
 }
 .apartment-header p {
     margin-top: auto;
@@ -144,8 +145,12 @@ main .flex .flex-left {
     
     background-color: transparent;
 }
-.apartment img {
+.apartment-header img {
     width: 50%;
+}
+.apartment-sections img {
+    max-width: 100%;
+    height: auto;
 }
 .apartment-sections{
     display: grid;
@@ -154,9 +159,53 @@ main .flex .flex-left {
     "section1"
     "section2"
     "section3";
+    background-color: #218289;
 }
 .section1 {
     grid-area: section1;
+    border: 2px solid gray;
+}
+.section1-text{
+    padding: 20px;
+    text-align: center;
+}
+.section1-text p:first-child {
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.section1-text p:last-child{
+    color: aliceblue;
+    font-size: larger;
+}
+.section2 {
+    grid-area: section2;
+    border: 2px solid gray;
+}
+.section2-text{
+    text-align: center;
+}
+.section2-text p:first-child {
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.section2-text p:last-child{
+    color: aliceblue;
+    font-size: larger;
+}
+.section3 {
+    grid-area: section3;
+    border: 2px solid gray;
+}
+.section3-text{
+    text-align: center;
+}
+.section3-text p:first-child {
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.section3-text p:last-child{
+    color: aliceblue;
+    font-size: larger;
 }
 
 
@@ -218,4 +267,15 @@ main .flex .flex-left {
     color: whitesmoke;
     font-weight: 300;
 }
+
+.apartment-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "section1 section2 section3";
+    background-color: #218289;
+    gap: 20px;
+}
+
+
 }
