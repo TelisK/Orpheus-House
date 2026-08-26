@@ -264,7 +264,9 @@ main .flex .flex-left {
         text-align: center;
     padding: 10px;
 }
-
+.location h2 {
+    font-size: 150%;
+}
 
 @media screen and (min-width: 769px){
     * {
