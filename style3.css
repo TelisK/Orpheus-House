@@ -118,15 +118,45 @@ main .flex .flex-left {
     flex-direction: column;
 }
 .apartment-header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "appartment image"
+    "galery image";
     background-color: #218289;
     color: aliceblue;
 }
-.apartment button {
+.apartment-header p {
+    margin-top: auto;
+    font-size: 2rem;
+}
+.apartment-header button {
     background-color: #218289;
+    grid-area: galery;
+    border: none;
+    color: aliceblue;
+}
+.apartment-header button:hover {
+    color: #218289;
+}
+.apartment-header img {
+    grid-area: image;
+    
+    background-color: transparent;
 }
 .apartment img {
     width: 50%;
+}
+.apartment-sections{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "section1"
+    "section2"
+    "section3";
+}
+.section1 {
+    grid-area: section1;
 }
 
 
