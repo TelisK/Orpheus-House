@@ -224,6 +224,46 @@ main .flex .flex-left {
 .luxury-apartment p {
     margin: 30px 30px;
 }
+.empty-space {
+    background-color: #218289;
+    padding: 30px;
+}
+.bedrooms {
+    background-color: #218289;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "double"
+    "double-text"
+    "single"
+    "single-text";
+}
+.double-bed {
+    padding: 20px;
+}
+.double-bed img {
+    grid-area: double;
+    max-width: 100%;
+}
+.double-bed p {
+    grid-area: double-text;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+.single-bed {
+    padding: 20px;
+}
+.single-bed img {
+    grid-area: single;
+    max-width: 100%;
+}
+.single-bed p {
+    grid-area: single-text;
+    color: aliceblue;
+        text-align: center;
+    padding: 10px;
+}
 
 
 @media screen and (min-width: 769px){
@@ -299,6 +339,14 @@ main .flex .flex-left {
     "section1 section2 section3";
     background-color: #218289;
     gap: 20px;
+}
+.bedrooms {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "double single"
+    "double-text single-text";
 }
 
 
