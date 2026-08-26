@@ -12,7 +12,8 @@ body {
     border: #218289 solid 5px;
 }
 .header {
-    background-image: url("assets/header.jpg");
+    /* Making the picture darker. White letters are now visible. */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("assets/header.jpg");
     background-size: cover;
     min-height: 300px;
 
@@ -209,11 +210,19 @@ main .flex .flex-left {
     font-size: larger;
 }
 .luxury-apartment {
-    background-image: url(assets/luxury-apartment.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(assets/luxury-apartment.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     align-content: center;
-    height: 500px;
     color: aliceblue;
     text-align: center;
+}
+.luxury-apartment h1 {
+    margin: 40px 30px ;
+}
+.luxury-apartment p {
+    margin: 30px 30px;
 }
 
 
