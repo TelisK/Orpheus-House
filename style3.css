@@ -340,6 +340,9 @@ main .flex .flex-left {
     background-color: #218289;
     gap: 20px;
 }
+.luxury-apartment {
+    font-size: 150%;
+}
 .bedrooms {
     display: grid;
     grid-template-rows: 5fr 1fr;
@@ -347,6 +350,13 @@ main .flex .flex-left {
     grid-template-areas: 
     "double single"
     "double-text single-text";
+    font-size: 150%;
+}
+.double-bed img{
+    width: 96%;
+}
+.double-bed p, .single-bed p {
+    padding: 30px;
 }
 
 
