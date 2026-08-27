@@ -291,7 +291,7 @@ main .flex .flex-left {
 .small-beach {
     grid-area: small-beach;
     border: gray solid 2px;
-    margin: 0 30px;
+    margin: 10px 30px;
 }
 .small-beach h3, .small-beach p {
     padding: 20px;
@@ -301,15 +301,22 @@ main .flex .flex-left {
 .koum-kapi {
     grid-area: koum-kapi;
     border: gray solid 2px;
-    margin: 20px;
+    margin: 10px 30px;
+}
+.koum-kapi h3, .koum-kapi p {
+    padding: 20px;
+    color: #218289;
 }
 .great-location {
     grid-area: great-location;
     border: gray solid 2px;
-    margin: 20px;
+    margin: 10px 30px;
     
 }
-
+.great-location h3, .great-location p {
+    padding: 20px;
+    color: #218289;
+}
 @media screen and (min-width: 769px){
     * {
         /* font-size: 125%; */
@@ -401,6 +408,15 @@ main .flex .flex-left {
 }
 .double-bed p, .single-bed p {
     padding: 30px;
+}
+.location {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "location location location"
+    "small-beach koum-kapi great-location"
+    ;
 }
 
 
