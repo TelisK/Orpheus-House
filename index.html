@@ -1,325 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
     <title>Orpheus House</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-<header>
-
-<div class="logo">
-
-<h1>ORPHEUS HOUSE</h1>
-<p>Greek Hospitality</p>
-
-</div>
-
-<nav>
-
-<a href="#">Home</a>
-<a href="#">Apartment</a>
-<a href="#">Gallery</a>
-<a href="#">Reviews</a>
-<a href="#">Contact</a>
-
-<button>Book Your Stay</button>
-
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<div class="overlay"></div>
-
-<div class="hero-content">
-
-<h3>Greek Hospitality</h3>
-
-<h1>ORPHEUS HOUSE</h1>
-
-<p>
-Central Apartment with panoramic sea view
-</p>
-
-<button>BOOK NOW on AirBNB</button>
-
-</div>
-
-</section>
-
-
-
-<section class="welcome">
-
-<div class="flex">
-
-<div class="left">
-
-<h2>A HOME AWAY FROM HOME</h2>
-
-<p>
-
-Orpheus House is an apartment located at Koum Kapi,
-one of the most beautiful areas of Chania.
-
-Enjoy the sea view,
-the beautiful sunrise and
-the traditional restaurants nearby.
-
-</p>
-
-</div>
-
-<div class="right">
-
-<img src="assets/apartment1.png">
-
-</div>
-
-</div>
-
-</section>>
-
-
-
-
-<section class="features">
-
-<div class="card">
-
-<h3>4 Guests</h3>
-
-<p>Comfortable accommodation for four people.</p>
-
-</div>
-
-<div class="card">
-
-<h3>2 Bedrooms</h3>
-
-<p>Two separate spacious bedrooms.</p>
-
-</div>
-
-<div class="card">
-
-<h3>Sea View</h3>
-
-<p>Enjoy panoramic views every day.</p>
-
-</div>
-
-<div class="card">
-
-<h3>Luxury</h3>
-
-<p>Modern decoration with original artwork.</p>
-
-</div>
-
-</section>
-
-
-
-
-
-<section class="luxury">
-
-<div class="image">
-
-<img src="assets/livingroom.jpg">
-
-</div>
-
-<div class="text">
-
-<h2>Luxury Apartment</h2>
-
-<p>
-
-Experience full comfort while exploring Crete.
-
-The apartment includes:
-
-</p>
-
-<ul>
-
-<li>Living Room</li>
-
-<li>Fully Equipped Kitchen</li>
-
-<li>Modern Bathroom</li>
-
-<li>Fast WiFi</li>
-
-<li>Smart TV</li>
-
-<li>Air Conditioning</li>
-
-</ul>
-
-<button>View Apartment</button>
-
-</div>
-
-</section>
-
-
-
-
-
-<section class="gallery">
-
-<h2>Gallery</h2>
-
-<div class="gallery-grid">
-
-<img src="assets/gallery1.jpg">
-
-<img src="assets/gallery2.jpg">
-
-<img src="assets/gallery3.jpg">
-
-<img src="assets/gallery4.jpg">
-
-<img src="assets/gallery5.jpg">
-
-<img src="assets/gallery6.jpg">
-
-</div>
-
-</section>
-
-
-
-
-
-<section class="offers">
-
-<h2>Special Offers</h2>
-
-<div class="offer-card">
-
-<h3>Summer Offer</h3>
-
-<p>
-
-Book 7 nights and get 10% discount.
-
-</p>
-
-<button>See Offer</button>
-
-</div>
-
-</section>
-
-
-
-
-
-<section class="reviews">
-
-<h2>What Our Guests Say</h2>
-
-<div class="review-container">
-
-<div class="review">
-
-<p>
-
-★★★★★
-
-Amazing apartment and incredible view.
-
-</p>
-
-<span>- Carly Ferris</span>
-
-</div>
-
-<div class="review">
-
-<p>
-
-★★★★★
-
-Perfect location near Old Town.
-
-</p>
-
-<span>- Neil Tran</span>
-
-</div>
-
-<div class="review">
-
-<p>
-
-★★★★★
-
-We felt like home.
-
-</p>
-
-<span>- Jin Ae Soo</span>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-
-
+    <header class="header">
+        <div class="header-div">
+            <!-- <img src="assets/header.jpg" alt="Sunrise from the balcony"> -->
+            <div class="header-text">
+                <p>Greek <br>Hospitality</p>
+                <p>Central Appartment with panoramic sea view</p>
+                <h1 class="header-h1">ORPHEUS<br>HOUSE</h1>
+                <div class="book">
+                    <a href="https://www.airbnb.com/h/orpheushouse"><button>Book Your <br>Stay &#8594;</button></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="flex">
+            <div class="flex-left">
+                <p>A HOME AWAY <br>FROM HOME</p>
+            </div>
+
+            <img class="flex-right" src="assets/apartment1.png" alt="logo">
+        </div>
+
+        <div class="description">
+            <div class="desc-left">
+                <p>Orpheus house is an apartment located at Koum Kapi, a
+                    district with long history, accross of a small sandy beach. It's
+                    one of the most beautiful neighborhoods of Chania, as it
+                    offers wonderful sea view and many remarkable cafes and
+                    taverns.Location is ideal, few steps from the old town of
+                    Chania and the city market and near the East Moat public
+                    parking. Enjoy your breakfast on our balcony overlooking
+                    the sea, and sleep listening to the sound of the waves. Feel
+                    like home !</p>
+
+            </div>
+            <div class="desc-right">
+                <p>What's special about your product, service, or company?
+                    Use this space to highlight the things that set you apart
+                    from your competition.</p>
+            </div>
+
+        </div>
+
+        <div class="apartment">
+            <div class="apartment-header">
+                <p>APARTMENT</p>
+                <button>Gallery</button>
+                <img src="assets/apartment1.png" alt="logo">
+            </div>
+            <div class="apartment-sections">
+                <div class="section1">
+                    <a href=""><img src="assets/bedroom_and_kitchen.jpg" alt=""></a>
+                    <div class="section1-text">
+                        <p>MAX 4 GUESTS</p>
+                        <p>2 SEPERATE BEDROOMS</p>
+                    </div>
+
+                </div>
+                <div class="section2">
+                    <a href=""><img src="assets/balcony-view.jpg" alt="View from the living room outside"></a>
+                    <div class="section2-text">
+                        <p>BEACHFRONT</p>
+                        <p>GREAT VIEWS</p>
+                    </div>
+                </div>
+                <div class="section3">
+                    <a href=""><img src="assets/living-room.jpg" alt="Living Room Picture"></a>
+                    <div class="section3-text">
+                        <p>ATTENTION TO DETAIL</p>
+                        <p>ORIGINAL ART</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="luxury-apartment">
+            <h1>LUXURY <br>APARTMENT</h1>
+            <p>Experience full confort while exploring Crete island and have the vacation of your dreams</p>
+        </div>
+        <div class="empty-space"></div>
+        <div class="bedrooms">
+            <div class="double-bed">
+                <a href=""><img src="assets/double-bedroom.jpg" alt=""></a>
+                <p>Comfortable two bedroom apartment with fully equipped
+                    kitchen and bathroom.</p>
+
+            </div>
+            <div class="single-bed">
+                <a href=""><img src="assets/single-bedroom.jpg" alt=""></a>
+                <p>Feel the breeze and relax listening the sound of the waves.</p>
+            </div>
+        </div>
+        <div class="location">
+            <h2>LOCATION</h2>
+            <div class="small-beach">
+                <a href=""><img src="assets/small-beach.jpg" alt=""></a>
+                <h3>SMALL BEACH</h3>
+                <p>A small sandy beach in front of the
+                    apartment to swim all day long and
+                    relax under the sun.</p>
+            </div>
+            <div class="koum-kapi">
+                <a href=""><img src="assets/koum-kapi.jpg" alt=""></a>
+                <h3>KOUM KAPI</h3>
+                <p>Our neighbourhood is a locals favorite spot,
+                    offering great views and great restaurants and cafes.</p>
+            </div>
+            <div class="great-location">
+                <a href=""><img src="assets/great-location.jpg" alt=""></a>
+                <h3>GREAT LOCATION</h3>
+                <p>Ideal location the centre of the town
+                    and the old town in walking distance to
+                    explore the true beauty of our town.</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <h2>WHAT OUR <br>GUESTS SAY</h2>
+            <div class="review-1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate rerum voluptas distinctio accusamus architecto quo, officiis temporibus tempore voluptates ullam libero placeat quaerat omnis excepturi. Animi veniam unde totam. rem ipsum dolor sit amet.</p>
+                <p>-- CARLY FERRIES</p>
+            </div>
+            <div class="review-2">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>-- NEIL TRAN</p>
+            </div>
+            <div class="review-3">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>-- JIN AE SOO</p>
+            </div>
+        </div>
+    </main>
+</body>
 <footer>
+    <div class="footer-image">
+        <img src="assets/footer.png" alt="">
+    </div>
+    <div class="footer-main">
+        <p>GREEK <br>HOSPITALITY</p>
+        <div class="footer-grid">
+            <div class="section-1">
+                <h3>LOCATION</h3>
+                <p>Parodos Kyprou 9, Chania, Crete, 73132</p>
+                <p>Tel.: +30 6945725808</p>
+                <p>orpheushouse@gmail.com</p>
+                <a href="https://maps.app.goo.gl/1HYEYg64CHcbNLVk7">Google Maps</a>
+            </div>
+            <div class="section-2">
+                <h3>BUSINESS HOURS</h3>
+                <p>Monday: 8am - 7pm</p>
+                <p>Tuesday: 8am - 7pm</p>
+                <p>Wednesday: 8am - 5pm</p>
+                <p>Thursday: 8am - 7pm</p>
+                <p>Friday: 8am - 5pm</p>
+            </div>
+            <div class="section-3">
+                <h3>GET SOCIAL</h3>
+                <div class="section-3-grid">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+                
+                
 
-<div>
-
-<h3>Location</h3>
-
-<p>Koum Kapi, Chania</p>
-
-</div>
-
-<div>
-
-<h3>Contact</h3>
-
-<p>+30 6900000000</p>
-
-<p>info@orpheushouse.gr</p>
-
-</div>
-
-<div>
-
-<h3>Social</h3>
-
-<button>Facebook</button>
-
-<button>Instagram</button>
-
-</div>
-
+            </div>
+        </div>
+    </div>
 </footer>
 
-
-
-<script src="script.js"></script>
-
-</body>
 </html>
