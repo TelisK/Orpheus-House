@@ -24,7 +24,7 @@ body {
 }
 .header-text {
     display: grid;
-    grid-template-rows: 25% 25% 50%;
+    grid-template-rows: 20% 25% 55%;
     grid-template-columns: 80% 20%;
     grid-template-areas: 
     "firstline firstline"
@@ -45,6 +45,7 @@ body {
     color: whitesmoke;
     text-align: center;
     font-size: 1rem;
+    padding-top: 5px;
 }
 
 
@@ -60,9 +61,7 @@ body {
     margin-top: 15%;
     justify-self: start;
 }
-.header-h1 {
-    
-}
+
 .header-text button {
     grid-area: book;
     background-color: transparent;
@@ -70,6 +69,7 @@ body {
     color: white;
     border: none;
     padding-right: 20px;
+    
 }
 .header-text button:hover {
     color: #218289;
@@ -405,6 +405,8 @@ main .flex .flex-left {
     padding-top: 15px;
     grid-area: social;
 }
+
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -414,20 +416,13 @@ main .flex .flex-left {
   border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: transparent;
   color: white;
 }
-
-/* Twitter */
 .fa-instagram {
   background: transparent;
   color: white;
@@ -440,10 +435,15 @@ main .flex .flex-left {
 
 
 
+
+
+
 @media screen and (min-width: 769px){
     * {
-        /* font-size: 125%; */
         max-width: 1400px;
+    }
+    body {
+        font-size: 150%;
     }
     .header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("assets/header.jpg");
@@ -456,7 +456,7 @@ main .flex .flex-left {
 }
     .header-text {
     display: grid;
-    grid-template-rows: 40% 10% 50%;
+    grid-template-rows: 20% 20% 60%;
     grid-template-columns: 80% 20%;
     grid-template-areas: 
     "firstline firstline"
@@ -525,7 +525,6 @@ main .flex .flex-left {
     grid-template-areas: 
     "double single"
     "double-text single-text";
-    font-size: 150%;
 }
 .double-bed img{
     width: 96%;
@@ -542,6 +541,17 @@ main .flex .flex-left {
     "small-beach koum-kapi great-location"
     ;
 }
+.reviews {
+    background-color: #218289;
+    display: grid;
+    color: white;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "h2 h2 h2"
+    "review-1 review-2 review-3";
+    margin: 0;
+}
 .footer-grid {
     text-align: center;
     display: grid;
@@ -549,8 +559,7 @@ main .flex .flex-left {
     grid-template-rows: 1fr;
     grid-template-areas: 
     "location business-hours social";
-    margin: 0
-    ;
+    margin: 0;
 
 }
 }
