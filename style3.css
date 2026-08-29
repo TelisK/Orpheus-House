@@ -19,13 +19,12 @@ body {
 
 }
 .header div {
-        border: solid red 2px;
         min-height: 300px;
 }
 .header-text {
     display: grid;
     grid-template-rows: 20% 25% 55%;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 60% 40%;
     grid-template-areas: 
     "firstline firstline"
     "central central"
@@ -50,7 +49,7 @@ body {
 
 
 .header-text h1 {
-    border: black solid 2px;
+    /* border: black solid 2px; */
     grid-area: house;
     color: white;
     font-variant: small-caps;
@@ -61,6 +60,11 @@ body {
     margin-top: 15%;
     justify-self: start;
 }
+.book {
+    display: flex;
+    align-items: center;
+    
+}
 
 .header-text button {
     grid-area: book;
@@ -69,6 +73,7 @@ body {
     color: white;
     border: none;
     padding-right: 20px;
+    font-size: 1.5rem;
     
 }
 .header-text button:hover {
