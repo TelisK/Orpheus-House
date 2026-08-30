@@ -72,5 +72,15 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             justify-content: space-around;
-        }         
+        }
+        .small-beach {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-around;
+        }
+        .small-beach-text {
+            color: aliceblue;
+            font-size: 2rem;
+            padding-left: 20px;
+        }
         }

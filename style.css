@@ -49,13 +49,13 @@ body {
 
 
 .header-text h1 {
-    /* border: black solid 2px; */
     grid-area: house;
     color: white;
     font-variant: small-caps;
     font-weight: 100;
     text-align:start;
-    /* margin-right: auto; */
+    padding-left: 20px;
+    padding-top: 40px;
     width: 100%;
     margin-top: 15%;
     justify-self: start;
@@ -74,6 +74,7 @@ body {
     border: none;
     padding-right: 20px;
     font-size: 1.5rem;
+    cursor: pointer;
     
 }
 .header-text button:hover {
@@ -129,6 +130,8 @@ main .flex .flex-left {
     grid-area: gallery;
     border: none;
     color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 .apartment-header button:hover {
     color: #218289;
@@ -418,16 +421,8 @@ main .flex .flex-left {
 .fa:hover {
   opacity: 0.7;
 }
-.fa-facebook {
+.fa-facebook, .fa-instagram, .fa-google, .fa-envelope-open {
   background: transparent;
-  color: white;
-}
-.fa-instagram {
-  background: transparent;
-  color: white;
-}
-.fa-google {
-      background: transparent;
   color: white;
 }
 
