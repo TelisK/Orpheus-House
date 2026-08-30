@@ -4,11 +4,26 @@
         }
         body {
             margin: 0;
+            padding-top: 140px;
+        }
+        .container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #218289;
+        }
+        .container img {
+            margin: 10px;
+            max-width: 100px;
         }
         ul {
             list-style-type: none;
             display: flex;
-            justify-content: space-around;
+            justify-content: left;
+            padding-left: 10px;
+            align-items: center;
             
         }
         a {
@@ -17,12 +32,20 @@
             padding: 10px;
             border-radius: 10px;
             background-color: #4c8f94;
+            margin: 10px;
+            
+        }
+        .desktop-only-text {
+            display: none;
         }
         h2 {
             color: white;
         }
         .container {
-            
+            border-bottom: white 1px solid;
+        }
+        .gallery {
+            padding: 10px;
         }
         .gallery img{
             max-width: 100%;
@@ -32,4 +55,22 @@
             a {
                 font-size: 1.5rem;
             }
+            .desktop-only-text {
+            color: white;
+            font-size: 2rem;
+            display: block;
+            padding-left: 50px;
+        }
+        h2 {
+            padding-left: 30px;
+            font-size: 2rem;
+        }
+        img {
+            border: 5px solid #218289;
+        }
+        .living-room, .double-bedroom, .single-bedroom, .kitchen, .bathroom, .balcony, .appliances {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-around;
+        }         
         }
