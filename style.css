@@ -99,26 +99,12 @@ main .flex .flex-left {
     font-weight: 300;
 }
 .description {
-    display: flex;
-    justify-content: space-between;
     color: #218289;
-    gap: 40px;
-    align-items: center;
     font-size: larger;
-    
+}
+.desc-left, .desc-right {
+    padding: 40px;
 
-}
-.desc-left {
-    flex: 1;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-.desc-right {
-    flex: 1;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 40px;
 }
 .apartment {
     display: flex;
@@ -510,6 +496,28 @@ main .flex .flex-left {
     padding-top: 20px;
     color: whitesmoke;
     font-weight: 300;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    color: #218289;
+    gap: 40px;
+    align-items: center;
+    font-size: larger;
+    
+
+}
+.desc-left {
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.desc-right {
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .apartment-header p {
     margin-top: auto;
