@@ -264,7 +264,7 @@ main .flex .flex-left {
     grid-template-rows: 0.6fr 2fr 2fr 2fr;
     grid-template-areas: 
     "location"
-    "small-beach"
+    "amenities"
     "koum-kapi"
     "great-location";
 
@@ -282,12 +282,12 @@ main .flex .flex-left {
     padding-top: 60px;
     
 }
-.small-beach {
-    grid-area: small-beach;
+.amenities {
+    grid-area: amenities;
     border: gray solid 2px;
     margin: 10px 30px;
 }
-.small-beach h3, .small-beach p {
+.amenities h3, .amenities p {
     padding: 20px;
     color: #218289;
 }
@@ -554,7 +554,7 @@ main .flex .flex-left {
     grid-template-rows: 1fr 2fr;
     grid-template-areas: 
     "location location location"
-    "small-beach koum-kapi great-location"
+    "amenities koum-kapi great-location"
     ;
 }
 .reviews {

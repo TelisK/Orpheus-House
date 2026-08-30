@@ -5,6 +5,7 @@
         body {
             margin: 0;
             padding-top: 140px;
+            background-color: aliceblue;
         }
         .container {
             position: fixed;
@@ -50,7 +51,19 @@
         .gallery img{
             max-width: 100%;
         }
+        .small-beach-text {
+            color: aliceblue;
+            font-size: 2rem;
+            padding-left: 20px;
+        }
 
+        .koum-kapi {
+            padding: 30px;
+            color: rgb(209, 210, 212);
+        }
+        .great-views-text {
+            background-color: aliceblue;
+        }
         @media screen and (min-width: 769px) {
             a {
                 font-size: 1.5rem;
@@ -78,9 +91,8 @@
             grid-template-columns: repeat(3, 1fr);
             justify-content: space-around;
         }
-        .small-beach-text {
-            color: aliceblue;
+        .koum-kapi {
             font-size: 2rem;
-            padding-left: 20px;
         }
+
         }
