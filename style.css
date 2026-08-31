@@ -11,6 +11,53 @@
 body {
     border: #218289 solid 5px;
 }
+
+
+
+
+        .container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #218289;
+        }
+        .container img {
+            margin: 10px;
+            max-width: 100px;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+            padding-left: 10px;
+            align-items: center;
+            
+        }
+        .container nav a {
+            text-decoration: none;
+            color: white;      
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #4c8f94;
+            margin: 10px;
+            
+        }
+        .desktop-only-text {
+            display: none;
+        }
+        h2 {
+            color: white;
+        }
+        .container {
+            border-bottom: white 1px solid;
+        }
+
+
+
+
+
 .header {
     /* Making the picture darker. White letters are now visible. */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("assets/header.jpg");
@@ -68,10 +115,11 @@ body {
 
 .header-text button {
     grid-area: book;
-    background-color: transparent;
+    background-color: #218289;
     font-weight: bold;
     color: white;
     border: none;
+    border-radius: 10px;
     padding-right: 20px;
     font-size: 1.5rem;
     cursor: pointer;
