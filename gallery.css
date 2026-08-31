@@ -14,6 +14,7 @@
             width: 100%;
             z-index: 1000;
             background-color: #218289;
+            border-bottom: white 1px solid;
         }
         .container img {
             margin: 10px;
@@ -41,9 +42,6 @@
         }
         h2 {
             color: white;
-        }
-        .container {
-            border-bottom: white 1px solid;
         }
         .gallery {
             padding: 10px;

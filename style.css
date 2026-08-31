@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     /* font-family: "Roboto", sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
     max-width: 1400px;
@@ -10,15 +10,15 @@
 }
 body {
     border: #218289 solid 5px;
+    padding-top: 110px;
 }
 
 
-
+/* nav */
 
         .container {
             position: fixed;
             top: 0;
-            left: 0;
             width: 100%;
             z-index: 1000;
             background-color: #218289;
@@ -50,9 +50,7 @@ body {
         h2 {
             color: white;
         }
-        .container {
-            border-bottom: white 1px solid;
-        }
+
 
 
 
