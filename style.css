@@ -120,14 +120,11 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
 
 
 .header {
-    /* Making the picture darker. White letters are now visible. */
+                /* Making the picture darker. White letters are now visible. */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("assets/header.jpg");
     background-size: cover;
     min-height: 300px;
 
-}
-.header div {
-        min-height: 300px;
 }
 .header-text {
     display: grid;
@@ -580,9 +577,7 @@ main .flex .flex-left {
             display: none;
             color: aliceblue;
         }
-.header div {
-    min-height: 500px;
-}
+
     .header-text {
     display: grid;
     grid-template-rows: 20% 20% 60%;
