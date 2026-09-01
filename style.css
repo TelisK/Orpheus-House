@@ -21,6 +21,10 @@ nav {
 nav ul {
   display: none;
 }
+nav ul li {
+
+    padding: 15px;
+}
 nav .hamb-label {
   position: relative;
   width: 64px;
@@ -51,6 +55,7 @@ nav .hamb-checkbox {
 nav .hamb-checkbox:checked ~ ul {
   height: 100%;
   display: flex;
+  flex-direction: column;
   clear: right;
 }
 nav .hamb-checkbox:checked ~ .hamb-label .line1 {
@@ -563,13 +568,16 @@ main .flex .flex-left {
         align-items: center;
         
     }
+
       nav ul li {
     height: unset;
     width: unset;
     border: none;
+    padding: 0;
+
   }
           .desktop-only-text {
-            display: block;
+            display: none;
             color: aliceblue;
         }
 .header div {
@@ -705,4 +713,10 @@ main .flex .flex-left {
     margin: 0;
 
 }
+}
+@media screen and (min-width: 1000px) {
+          .desktop-only-text {
+            display: block;
+            color: aliceblue;
+        }
 }
