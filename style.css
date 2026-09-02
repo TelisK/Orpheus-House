@@ -580,16 +580,16 @@ main .flex .flex-left {
         }
 
     .header-text {
+        height: 600px;
     display: grid;
-    grid-template-rows: 20% 20% 60%;
-    grid-template-columns: 80% 20%;
+    grid-template-rows: 40% 50% 10%;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     "firstline firstline"
     "central central"
     "house book";
 }
 .header-text p:nth-child(1) {
-    border: black solid 2px;
     height: auto;
     grid-area: firstline;
     color: whitesmoke;
@@ -597,11 +597,16 @@ main .flex .flex-left {
     border-bottom: solid 2px white;
     margin: 0;
     font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 .header-text p:nth-child(2) {
     grid-area: central;
     color: whitesmoke;
     text-align: center;
+    font-size: 2rem;
+}
+.header-text button {
     font-size: 2rem;
 }
 main .flex {
