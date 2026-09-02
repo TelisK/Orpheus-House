@@ -128,15 +128,16 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
 }
 .header-text {
     display: grid;
-    grid-template-rows: 20% 25% 55%;
-    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 75% 5%;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     "firstline firstline"
     "central central"
     "house book";
 }
     .header-text p:nth-child(1) {
-    height: auto;
+        padding-top: 5px;
+    height: 50px;
     grid-area: firstline;
     color: whitesmoke;
     text-align: center;
@@ -149,7 +150,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
     color: whitesmoke;
     text-align: center;
     font-size: 1rem;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 
@@ -165,11 +166,11 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
     margin-top: 15%;
     justify-self: start;
 }
-.book {
+/* .book {
     display: flex;
-    align-items: center;
+    align-items: end;
     
-}
+} */
 
 .header-text button {
     grid-area: book;
@@ -548,7 +549,7 @@ main .flex .flex-left {
     .header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("assets/header.jpg");
     background-size: cover;
-    min-height: 500px;
+    min-height: 800px;
 
 }
 .header-logo {
