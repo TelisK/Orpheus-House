@@ -103,7 +103,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             color: white;      
             padding: 10px;
             border-radius: 10px;
-            background-color: #4c8f94;
+            /* background-color: #4c8f94; */
             margin: 10px;
             
         }
@@ -387,6 +387,7 @@ main .flex .flex-left {
     font-weight: 200;
     grid-area: location;
     padding-top: 60px;
+    color: #218289;
     
 }
 .amenities {
@@ -515,7 +516,7 @@ main .flex .flex-left {
     grid-area: social;
 }
 
-
+/* social media buttons */
 .fa {
   padding: 20px;
   font-size: 30px;

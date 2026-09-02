@@ -90,7 +90,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             color: white;      
             padding: 10px;
             border-radius: 10px;
-            background-color: #4c8f94;
+            /* background-color: #4c8f94; */
             margin: 10px;
             
         }
@@ -101,6 +101,54 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             padding: 20px;
             text-align: center;
         }
+        /* file house-description.html */
+        .description {
+            padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+        }
+        .description h2 {
+            color: #14545a; /* πιο σκούρο απόχρωση για να ξεχωρίζει από το κείμενο */
+    margin-top: 40px;
+    margin-bottom: 15px;
+        }
+        .description p {
+            margin-bottom: 20px;
+        }
+        /* file koum-kapi.html */
+.koum-kapi {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.koum-kapi h2 {
+    color: #14545a; /* πιο σκούρο απόχρωση για να ξεχωρίζει από το κείμενο */
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.koum-kapi p {
+    margin-bottom: 20px;
+}
+.amenities-text {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+.amenities-text h3 {
+    color: #14545a; /* πιο σκούρο απόχρωση για να ξεχωρίζει από το κείμενο */
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+.amenities-text p {
+    margin-bottom: 20px;
+}
         @media screen and (min-width: 769px) {
                 body {
             font-size: 1.5rem;
@@ -153,4 +201,17 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             display: block;
             color: aliceblue;
         }
+                .description {
+            padding: 50px 150px;
+            /* text-align: justify; */
+            max-width: 900px;
+        }
+    .koum-kapi {
+        padding: 50px 150px;
+        max-width: 900px;
+    }
+    .amenities-text {
+        padding: 50px 150px;
+        max-width: 900px; 
+    }
 }

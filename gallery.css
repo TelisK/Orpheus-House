@@ -91,7 +91,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             color: white;      
             padding: 10px;
             border-radius: 10px;
-            background-color: #4c8f94;
+            /* background-color: #4c8f94; */
             margin: 10px;
             
         }
@@ -114,8 +114,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
         }
 
         .koum-kapi {
-            padding: 30px;
-            color: rgb(209, 210, 212);
+            background-color: white;
         }
         .great-views-text {
             background-color: aliceblue;
