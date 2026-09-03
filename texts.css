@@ -141,7 +141,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
     text-align: center;
 }
 .amenities-text h3 {
-    color: #14545a; /* πιο σκούρο απόχρωση για να ξεχωρίζει από το κείμενο */
+    color: #14545a;
     margin-top: 40px;
     margin-bottom: 15px;
 
@@ -149,6 +149,38 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
 .amenities-text p {
     margin-bottom: 20px;
 }
+.bedrooms-description {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+
+}
+.bedrooms-description h2 {
+        color: #14545a;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.bedrooms-description p {
+    margin-bottom: 20px;
+}
+.recomendations {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.recomendations h2{
+            color: #14545a;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.recomendations p {
+    margin-bottom: 20px;
+}
+
+
+
         @media screen and (min-width: 769px) {
                 body {
             font-size: 1.5rem;
@@ -212,6 +244,10 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
     }
     .amenities-text {
         padding: 50px 150px;
+        max-width: 900px; 
+    }
+    .bedrooms-description {
+                padding: 50px 150px;
         max-width: 900px; 
     }
 }
