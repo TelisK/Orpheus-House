@@ -373,7 +373,7 @@ main .flex .flex-left {
     "location"
     "amenities"
     "koum-kapi"
-    "great-location";
+    "recomendations";
 
 }
 .location img {
@@ -392,7 +392,7 @@ main .flex .flex-left {
 }
 .amenities {
     grid-area: amenities;
-    border: gray solid 2px;
+    /* border: gray solid 2px; */
     margin: 10px 30px;
 }
 .amenities h3, .amenities p {
@@ -402,20 +402,21 @@ main .flex .flex-left {
 
 .koum-kapi {
     grid-area: koum-kapi;
-    border: gray solid 2px;
+    /* border: gray solid 2px; */
     margin: 10px 30px;
 }
 .koum-kapi h3, .koum-kapi p {
     padding: 20px;
     color: #218289;
 }
-.great-location {
-    grid-area: great-location;
-    border: gray solid 2px;
+.recomendations {
+    grid-area: recomendations;
+    /* border: gray solid 2px; */
     margin: 10px 30px;
     
 }
-.great-location h3, .great-location p {
+
+.recomendations h3, .recomendations p {
     padding: 20px;
     color: #218289;
 }
@@ -441,7 +442,8 @@ main .flex .flex-left {
 .review-1 {
     grid-area: review-1;
     border: white solid 2px;
-    margin: 50px;
+    margin: 0px 50px;
+    margin-bottom: 50px;
     padding: 20px;
 }
 .review-1 p:nth-child(2) {
@@ -450,7 +452,8 @@ main .flex .flex-left {
 .review-2 {
     grid-area: review-2;
     border: white solid 2px;
-    margin: 50px;
+    margin: 0px 50px;
+    margin-bottom: 50px;
     padding: 20px;
 }
 .review-2 p:nth-child(2) {
@@ -459,7 +462,8 @@ main .flex .flex-left {
 .review-3 {
     grid-area: review-3;
     border: white solid 2px;
-    margin: 50px;
+    margin: 0px 50px;
+    margin-bottom: 50px;
     padding: 20px;
 }
 .review-3 p:nth-child(2) {
@@ -685,14 +689,20 @@ main .flex .flex-left {
 .double-bed p, .single-bed p {
     padding: 30px;
 }
+.single-bed img{
+    width: 100%;
+}
 .location {
     background-color: aliceblue;
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-areas: 
     "location location location"
-    "amenities koum-kapi great-location"
+    "amenities koum-kapi recomendations"
     ;
+}
+.recomendations {
+    text-align: inherit;
 }
 .reviews {
     background-color: #218289;
