@@ -105,6 +105,29 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             padding: 20px;
             text-align: center;
         }
+        .great-views-pics img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        .house-detail-text {
+            padding: 20px;
+            text-align: center;
+        }
+        .house-detail-text h3 {
+            font-weight: 900;
+        }
+        .house-detail-pics {
+            display: flex;
+            flex-direction: column;
+            align-items: center;         
+        }
+        .house-detail-pics img {
+            padding: 20px;
+            width: 100%;
+        }
+      
         /* file house-description.html */
         .description {
             padding: 50px;
@@ -241,6 +264,11 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             padding: 50px 150px;
             /* text-align: justify; */
             max-width: 900px;
+        }
+        .house-detail-pics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;         
         }
     .koum-kapi {
         padding: 50px 150px;
