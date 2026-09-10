@@ -221,6 +221,14 @@ main .flex .flex-left {
 .desc-left, .desc-right {
     padding: 40px;
 
+
+}
+.desc-left strong, .desc-right strong{
+    font-weight: 600;
+}
+.desc-right p:has(em) {
+    padding-top: 10px;
+    text-align: center;
 }
 .apartment {
     display: flex;
@@ -550,7 +558,7 @@ main .flex .flex-left {
 
 @media screen and (min-width: 769px){
     * {
-        max-width: 1400px;
+        max-width: 1700px;
     }
     body {
         font-size: 150%;
@@ -586,8 +594,12 @@ main .flex .flex-left {
           .desktop-only-text {
             display: none;
             color: aliceblue;
+            
         }
 
+        .desktop-only-text p {
+            font-style: italic;
+        }
     .header-text {
         height: 600px;
     display: grid;
