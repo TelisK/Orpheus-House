@@ -101,6 +101,7 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
         }
         .desktop-only-text {
             display: none;
+            font-style: italic;
         }
         h2 {
             color: white;

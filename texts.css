@@ -260,6 +260,9 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             display: block;
             color: aliceblue;
         }
+                .desktop-only-text p {
+            font-style: italic;
+        }
                 .description {
             padding: 50px 150px;
             /* text-align: justify; */
