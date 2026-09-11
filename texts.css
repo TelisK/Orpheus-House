@@ -160,6 +160,15 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
 .koum-kapi p {
     margin-bottom: 20px;
 }
+.area-pics {
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+}
+.area-pics img {
+    padding: 20px;
+}
 .amenities-text {
     padding: 50px;
     max-width: 800px;
@@ -277,6 +286,19 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
         padding: 50px 150px;
         max-width: 900px;
     }
+    .area-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "koum-kapi1 koum-kapi2"
+    "koum-kapi3 koum-kapi4";
+    }
+    .area-pics img {
+        width: 100%;
+        padding: 50px;
+    }
+
     .amenities-text {
         padding: 50px 150px;
         max-width: 900px; 

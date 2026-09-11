@@ -355,7 +355,8 @@ main .flex .flex-left {
 }
 .double-bed img {
     grid-area: double;
-    max-width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 .double-bed p {
     grid-area: double-text;
@@ -368,7 +369,7 @@ main .flex .flex-left {
 }
 .single-bed img {
     grid-area: single;
-    max-width: 100%;
+    width: 100%;
 }
 .single-bed p {
     grid-area: single-text;
@@ -420,6 +421,7 @@ main .flex .flex-left {
     padding: 20px;
     color: #218289;
 }
+
 .recomendations {
     grid-area: recomendations;
     /* border: gray solid 2px; */
@@ -700,7 +702,7 @@ main .flex .flex-left {
     "double-text single-text";
 }
 .double-bed img{
-    width: 96%;
+    width: 100%;
 }
 .double-bed p, .single-bed p {
     padding: 30px;
