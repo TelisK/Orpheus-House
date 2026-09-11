@@ -215,6 +215,18 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
     margin-bottom: 20px;
 }
 
+.recomendations h3 {
+    font-style: italic;
+    font-weight: 700;
+}
+.if-you-love {
+    font-size: 1.8rem;
+    color: #14545a;
+}
+.recomendations h4 {
+    font-weight: 700;
+}
+
 
 
         @media screen and (min-width: 769px) {
@@ -307,4 +319,8 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
                 padding: 50px 150px;
         max-width: 900px; 
     }
+    .if-you-love {
+    font-size: 2.5rem;
+
+}
 }
