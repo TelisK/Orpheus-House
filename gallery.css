@@ -112,7 +112,9 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
             padding: 10px;
         }
         .gallery img{
-            max-width: 100%;
+            width: 100%;
+            align-self: center;
+            padding: 10px;
         }
         .small-beach-text {
             color: aliceblue;
@@ -170,6 +172,9 @@ nav .hamb-checkbox:checked ~ .hamb-label .line3 {
         }
         img {
             border: 5px solid #218289;
+        }
+                .gallery {
+            padding: 150px;
         }
         .living-room, .double-bedroom, .single-bedroom, .kitchen, .bathroom, .balcony, .appliances {
             display: grid;
