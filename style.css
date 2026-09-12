@@ -343,20 +343,23 @@ main .flex .flex-left {
 .bedrooms {
     background-color: #218289;
     display: grid;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas: 
     "double"
-    "double-text"
-    "single"
-    "single-text";
+    "single";
 }
 .double-bed {
+    grid-area: double;
     padding: 20px;
 }
 .double-bed img {
-    grid-area: double;
+    /* grid-area: double; */
     width: 90%;
     margin-left: 5%;
+}
+.double-bed img, .single-bed img {
+    display: block;
+   
 }
 .double-bed p {
     grid-area: double-text;
@@ -365,7 +368,9 @@ main .flex .flex-left {
     padding: 10px;
 }
 .single-bed {
+    grid-area: single;
     padding: 20px;
+    margin-bottom: 20px;
 }
 .single-bed img {
     grid-area: single;
@@ -374,7 +379,7 @@ main .flex .flex-left {
 .single-bed p {
     grid-area: single-text;
     color: aliceblue;
-        text-align: center;
+    text-align: center;
     padding: 10px;
 }
 .location {
@@ -386,7 +391,7 @@ main .flex .flex-left {
     "amenities"
     "koum-kapi"
     "recomendations";
-
+    align-self: center;
 }
 .location img {
     max-width: 100%;
@@ -404,8 +409,10 @@ main .flex .flex-left {
 }
 .amenities {
     grid-area: amenities;
-    /* border: gray solid 2px; */
-    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    align-items: center;
 }
 .amenities h3, .amenities p {
     padding: 20px;
@@ -414,8 +421,11 @@ main .flex .flex-left {
 
 .koum-kapi {
     grid-area: koum-kapi;
-    /* border: gray solid 2px; */
     margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    align-items: center;
 }
 .koum-kapi h3, .koum-kapi p {
     padding: 20px;
@@ -424,9 +434,11 @@ main .flex .flex-left {
 
 .recomendations {
     grid-area: recomendations;
-    /* border: gray solid 2px; */
     margin: 10px 30px;
-    
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    align-items: center;
 }
 
 .recomendations h3, .recomendations p {
@@ -602,15 +614,15 @@ main .flex .flex-left {
     padding: 0;
 
   }
-          .desktop-only-text {
-            display: none;
-            color: aliceblue;
-            
-        }
+    .desktop-only-text {
+    display: none;
+    color: aliceblue;
+    
+    }
 
-        .desktop-only-text p {
-            font-style: italic;
-        }
+    .desktop-only-text p {
+        font-style: italic;
+    }
     .header-text {
         height: 600px;
     display: grid;
@@ -683,8 +695,9 @@ main .flex .flex-left {
     padding-bottom: 40px;
 }
 .apartment-header p {
-    margin-top: auto;
-    font-size: 5rem;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 4rem;
 }
 .apartment-header button {
     font-size: 2rem;
@@ -704,32 +717,46 @@ main .flex .flex-left {
 }
 .bedrooms {
     display: grid;
-    grid-template-rows: 5fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "double single"
-    "double-text single-text";
+}
+.double-bed {
+    grid-area: double;
 }
 .double-bed img{
     width: 100%;
 }
 .double-bed p, .single-bed p {
     padding: 30px;
+    display: block;
+}
+.single-bed {
+    grid-area: single;
 }
 .single-bed img{
     width: 100%;
 }
+.double-bed img,
+.single-bed img {
+    width: 100%;
+    height: 400px;       
+    object-fit: cover;   
+    display: block;
+}
 .location {
     background-color: aliceblue;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
     grid-template-areas: 
     "location location location"
     "amenities koum-kapi recomendations"
     ;
 }
-.recomendations {
-    text-align: inherit;
+.location h2 {
+    font-size: 3rem;
+    margin-left: 50px;
 }
 .reviews {
     background-color: #218289;
@@ -741,6 +768,15 @@ main .flex .flex-left {
     "h2 h2 h2"
     "review-1 review-2 review-3";
     margin: 0;
+}
+.review-1 p:last-child {
+    margin: 20px;
+}
+.review-2 p:last-child {
+    margin: 20px;
+}
+.review-3 p:last-child {
+    margin: 20px;
 }
 .footer-grid {
     text-align: center;
