@@ -302,6 +302,7 @@ main .flex .flex-left {
 .section2-text p:first-child {
     font-size: smaller;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .section2-text p:last-child{
     color: aliceblue;
@@ -316,6 +317,7 @@ main .flex .flex-left {
 .section3-text p:first-child {
     font-size: smaller;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .section3-text p:last-child{
     color: aliceblue;
